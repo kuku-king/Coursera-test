@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded",
 						message+=" doesn't like Chinese food."
 					}
 					message+=" and uses "
-					message+= numberOfDisplays
+					message+= res.numberOfDisplays
 					message+= " displays for coding."
 					
 					document.getElementById("content")
