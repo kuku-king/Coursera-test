@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded",
 						message+= " likes Chinese food";
 					}
 					else{
-						message+=" doesn't like Chinese food."
+						message+=" doesn't like Chinese food"
 					}
 					message+=" and uses "
 					message+= res.numberOfDisplays
