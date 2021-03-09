@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded",
 				//call server to get the name
 				$ajaxUtiles.sendGetRequest("name.json", 
 				function (res){
-					var message = res.firstName + "" + res.LastName;
+					var message = res.firstName + " " + res.LastName;
 					if (res.LikesChineseFood){
 						message+= " likes Chinese food";
 					}
